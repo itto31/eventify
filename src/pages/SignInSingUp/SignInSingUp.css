@@ -1,0 +1,55 @@
+.signin-sign-up__background-image {
+  overflow: hidden;
+  height: 100vh;
+  object-fit: cover; /* Ajusta la imagen para que cubra todo el espacio */
+  filter: blur(8px); /* Aplica un efecto de difuminado a la imagen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-sign-up__background-image img {
+  position: absolute;
+  right: 35px;
+}
+
+.signin-sign-up__Right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.signin-sign-up__Right div {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.signin-sign-up__Right h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.signin-sign-up__Right_buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.signin-sign-up__Right_buttons button {
+  display: block;
+  width: 100%;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.signin-sign-up__Right_buttons button:first-of-type {
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
