@@ -1,3 +1,55 @@
-.home_title {
-  border-bottom: 1px solid #7f8b95;
+.eventos_title {
+  text-align: center;
+}
+
+.eventos_title h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la lista de eventos */
+.list-group {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #fff !important;
+  background-color: transparent !important;
+}
+
+/* Estilos para el contenido de cada evento */
+.list-group-item .row {
+  align-items: center;
+}
+
+.list-group-item h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.list-group-item p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.list-group-item .col-4 {
+  text-align: right;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btneditar {
+  width: 100px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.btneliminar {
+  width: 100px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
 }
