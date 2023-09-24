@@ -24,7 +24,7 @@ function App() {
     <UserContext.Provider value={user}>
       <div>
         {user ? (
-          <Routing />
+          <Routing setRefreshCheck={setRefreshCheck} />
         ) : (
           <SignInSingUp setRefreshCheck={setRefreshCheck} />
         )}

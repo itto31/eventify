@@ -1,0 +1,35 @@
+.left-menu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  min-height: 100vh;
+  border-right: 1px solid #96a5b2;
+  padding-top: 85px;
+}
+
+a {
+  font-size: 20px;
+  color: #fff !important;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+svg {
+  margin-right: 20px;
+  width: 30px !important;
+}
+
+button {
+  width: 80%;
+  border-right: 50px;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 30px;
+  font-weight: bold;
+}
